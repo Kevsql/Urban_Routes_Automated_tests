@@ -52,7 +52,7 @@ class TestUrbanRoutes:
         assert self.routes_page.get_payment_method_assert() == 'Tarjeta'
 
     def test_write_message_for_the_driver(self):
-        message_for_driver = 'Revise los adicionales'
+        message_for_driver = data.message_for_driver
         self.routes_page.write_driver_message_field(message_for_driver)
         assert self.routes_page.get_driver_message_field() == message_for_driver
 
