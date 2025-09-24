@@ -21,6 +21,5 @@ Ejecución de las pruebas:
     - python
     - selenium
     - pytest
-    - selenium
 - Colocar la dirección URL del servidor en la variable 'urban_routes_url' localizada en data>data.py.
 - Correr las pruebas desde el archivo 'test_urban_routes.py' localizado en la carpeta tests.
