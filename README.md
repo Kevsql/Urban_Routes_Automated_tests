@@ -1,5 +1,5 @@
 # Proyecto Urban Grocers
-Kevin Alvarado Salazar - Cohort 31
+Kevin Alvarado Salazar 
 
 Pruebas automatizadas para comprobar la funcionalidad de la página web Urban Routes.
 
@@ -11,9 +11,9 @@ Tecnologías utilizadas:
 #
 Técnicas utilizadas:
 - Estructura modular de archivos para separar pruebas, datos y funciones especiales.
-- Diseño de codigo usando Patron Page Object Model (POM).
+- Diseño de codigo usando Page Object Model (POM).
 - WebDriverWait y expected_conditions para interactuar con los elementos adecuadamente.
-- Localizadores del tipo: ID, CSS_SELECTOR y XPATH.
+- Localizadores HTML del tipo: ID, CSS_SELECTOR y XPATH.
 - Simulación de entradas de usuario con send_keys y Keys.TAB
 #
 Ejecución de las pruebas:
